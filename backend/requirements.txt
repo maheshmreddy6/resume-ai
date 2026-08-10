@@ -1,0 +1,23 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+
+openai>=1.99.0
+
+chromadb==1.5.9
+
+pypdf==6.0.0
+
+langchain==0.3.27
+
+python-dotenv==1.1.1
+
+pydantic-settings==2.10.1
+
+# Optional integrations
+langgraph>=0.1.0  # Optional: provide LangGraph integration (install to enable)
+httpx2>=0.24.0  # Recommended for TestClient to avoid Starlette deprecation warnings
+
+# LangSmith (optional): install LangSmith SDK to enable run/eval logging
+# pip install langsmith
+langsmith>=0.1.0  # optional LangSmith SDK (install to enable)
