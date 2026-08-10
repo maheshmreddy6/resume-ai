@@ -1,0 +1,27 @@
+# Python virtual environments
+backend/venv/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local databases and generated runtime artifacts
+backend/*.db
+backend/chroma_db/
+backend/uploads/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment files
+*.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Local databases and generated artifacts
+*.db
+chroma_db/
+uploads/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment files
+*.env
